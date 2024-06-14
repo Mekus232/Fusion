@@ -27,6 +27,9 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
 
+    # Third-party apps
+    'rest_framework',
+
     # Local apps
     'users',
 ]
@@ -118,3 +121,5 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 # USER MODEL 
 AUTH_USER_MODEL = 'users.CustomUser'
+
+
